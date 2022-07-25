@@ -71,10 +71,17 @@ for r in "${fanduel_repos[@]}" ; do
 done
 git clone git@gitlab.app.betfair:i2/shared-configs/sportsbook.git shared-configs-sportsbook
 
+
+### EXPERIMENTAL ###
+
+
+
 ##### MANUAL STEPS #####
 
 # Copy config files like .ssh/* keys, .m2/settings.xml, .bashrc/.zshrc, etc
 
+# Restore iterm2 backup
+# Restore firefox backup
 # https://www.virtualbox.org/wiki/Downloads
 # https://www.jetbrains.com/idea/download/?fromIDE=#section=mac
 # https://www.postman.com/downloads/
