@@ -19,6 +19,9 @@ fanduel_repos=("green_scripts")
 # Install brew
 curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
 
+# Install Slack
+brew install slack
+
 # Install Firefox
 brew install firefox
 
